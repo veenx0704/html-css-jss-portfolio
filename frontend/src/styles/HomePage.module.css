@@ -1,0 +1,28 @@
+/* HomePage.module.css */
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../assets/fonts/regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.homepageContainer {
+    display: flex;
+    min-height: 100vh; /* Ensures full height of the viewport */
+    background-color: #5A5A5A; /* Dark gray background for entire page */
+
+}
+
+.mainContent {
+    padding: 20px;
+    flex-grow: 1;
+    background: #5A5A5A; /* Example gradient background */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Helvetica';
+    font-size: 100px;
+}

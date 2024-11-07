@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Helvetica-Compressed';
+    src: url('../assets/fonts/compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../assets/fonts/regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.sideMenu {
+    background-color: #5A5A5A;
+    padding: 20px;
+    color: white;
+    min-height: 100vh;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-family: 'Helvetica';
+    margin-left: 100px;
+    position: relative;
+}
+
+.name {
+    font-size: 70px;
+    font-weight: bold;
+    color: #8CC63F; 
+    margin-bottom: 70px;
+    text-transform: lowercase;
+    font-family: 'Helvetica-Compressed';
+    font-weight: normal;
+    transform: scaleX(0.7);
+    transform: scaleY(2.3);
+    transform-origin: left;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuItem {
+    margin-bottom: 15px;
+    color: #ffffff;  /* White color for standard menu items */
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.menuItem:hover {
+    color: #8CC63F;  /* Hover color */
+}
+
+.divider {
+    width: 3px;
+    height: 500px;
+    background-color: #8CC63F;
+    position: absolute;
+    right: -90px;
+    top: 50%;
+    transform: translateY(-50%);
+}
