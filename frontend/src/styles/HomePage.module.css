@@ -10,14 +10,14 @@
 .homepageContainer {
     display: flex;
     min-height: 100vh; /* Ensures full height of the viewport */
-    background-color: #5A5A5A; /* Dark gray background for entire page */
+    background-color: #564B00; /* Dark gray background for entire page */
 
 }
 
 .mainContent {
     padding: 20px;
     flex-grow: 1;
-    background: #5A5A5A; /* Example gradient background */
+    background: #564B00; /* Example gradient background */
     color: white; /* Text color */
     display: flex;
     align-items: center;
